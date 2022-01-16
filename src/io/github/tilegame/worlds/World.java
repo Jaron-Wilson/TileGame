@@ -22,9 +22,9 @@ public class World {
     public World(Handler handler, String path){
         this.handler = handler;
         entityManager = new EntityManager(handler, new Player(handler, 100, 100));
-        entityManager.addEntity(new Tree(handler, 640, 100));
-        entityManager.addEntity(new Tree(handler, 580, 100));
-        entityManager.addEntity(new Tree(handler, 700, 100));
+//        entityManager.addEntity(new Tree(handler, 640, 100));
+//        entityManager.addEntity(new Tree(handler, 580, 100));
+//        entityManager.addEntity(new Tree(handler, 700, 100));
 
 
         try {loadWorld(path);
