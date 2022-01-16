@@ -18,7 +18,7 @@ public class GameState extends State {
 
     public GameState(Handler handler){
         super(handler);
-        world = new World(handler,"C:\\Users\\jaron\\TileGame1\\src\\io\\github\\tilegame\\res\\worlds\\world1.txt");
+        world = new World(handler,".\\src\\io\\github\\tilegame\\res\\worlds\\world1.txt");
         handler.setWorld(world);
          //640, 1000 center of circle for map
     }
